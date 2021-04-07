@@ -2,8 +2,8 @@ body {
 	font-family: "筑紫A丸ゴシック", Verdana, sans-serif;
 	/* color: transparent; */
 	margin: 0;
-	background: linear-gradient(-135deg,#a3ccbe,#a3b1cc,#bea3cc);
-	min-width:1086px;
+	background: repeating-linear-gradient(-135deg,#a3ccbe,#a3b1cc,#bea3cc);
+/* 	min-width:1086px; */
 }
 
 header {
