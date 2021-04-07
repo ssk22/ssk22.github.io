@@ -3,7 +3,7 @@ body {
 	/* color: transparent; */
 	margin: 0;
 	background: linear-gradient(-135deg,#a3ccbe,#a3b1cc,#bea3cc);
-	background-size: cover;
+	min-width:1086px;
 }
 
 header {
