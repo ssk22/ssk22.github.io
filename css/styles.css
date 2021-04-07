@@ -6,7 +6,7 @@ body {
 /* 	height: 100%; */
 }
 
-body:before {/*擬似要素をつくる */
+body {/*擬似要素をつくる */
 	position: fixed;/*固定配置 */
 	top: 0; left: 0;/*左上に固定 */
  	width: 100%; height: 100%;/*画面全体を覆う*/
