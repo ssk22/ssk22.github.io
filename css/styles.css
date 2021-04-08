@@ -1,0 +1,25 @@
+body {
+	font-family: "筑紫A丸ゴシック", Verdana, sans-serif;
+	margin: 0;
+	/* font-size: 16px; */
+	color: white;
+	text-align: center;
+}
+
+body::before {
+  background: linear-gradient(-135deg,#a3ccbe,#a3b1cc,#bea3cc);
+	background-size: cover;/* cover指定できる */
+  content: "";
+  display: block;
+  position: fixed;/* 擬似要素ごと固定 */
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;/* 横幅いっぱい */
+  height: 100vh;/* 縦幅いっぱい */
+}
+
+footer {
+	font-size: 1rem;
+	color: gray;
+}
