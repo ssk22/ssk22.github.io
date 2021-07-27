@@ -1,25 +1,24 @@
 <template>
   <div id="app">
     <div id="nav">
-      <tab-menu></tab-menu>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
 
-    <p>TabMenu確認用</p>
+    <p>TabMenu確認用2</p>
 
     <router-view/>
   </div>
 </template>
 
 <script> 
-import TabMenu from '@/components/TabMenu'
+//import TabMenu from '@/components/TabMenu.vue'
 
 export default {
   name: 'App',
-  components: {
-    TabMenu
-  }
+//  components: {
+//    TabMenu
+//  }
 }
 </script>
 
