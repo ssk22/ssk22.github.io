@@ -1,12 +1,13 @@
 <template>
   <div id="app">
     <div id="nav">
-
       <tab-menu></tab-menu>
-
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+
+    <p>TabMenu確認用</p>
+
     <router-view/>
   </div>
 </template>
