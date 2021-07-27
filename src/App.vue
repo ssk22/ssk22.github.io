@@ -1,12 +1,26 @@
 <template>
   <div id="app">
     <div id="nav">
+
+      <tab-menu></tab-menu>
+
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+import TabMenu from '@/components/TabMenu'
+
+export default {
+  name: 'App',
+  components: {
+    TabMenu
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
