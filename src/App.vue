@@ -12,7 +12,7 @@
   </div>
 </template>
 
-<script>
+<script> 
 import TabMenu from '@/components/TabMenu'
 
 export default {
